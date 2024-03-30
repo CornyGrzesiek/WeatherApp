@@ -10,7 +10,7 @@ def unix_to_date(unix_timestamp, unix_timezone):
     return time.strftime('%Y-%m-%d %H:%M:%S', time.gmtime(unix_timestamp + unix_timezone))
 
 
-def display_input():
+def display_input(event=None):
     try:
         city = entry.get()
         url = BASE_URL + city + "&appid=" + API_KEY

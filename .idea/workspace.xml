@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7d68f6c-26ff-46d6-a49e-27ddce7bad5e" name="Changes" comment="eee">
-      <change afterPath="$PROJECT_DIR$/gui_weather.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f7d68f6c-26ff-46d6-a49e-27ddce7bad5e" name="Changes" comment="eee" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,7 +92,7 @@
       <updated>1711738824292</updated>
       <workItem from="1711738831924" duration="3999000" />
       <workItem from="1711796984737" duration="4068000" />
-      <workItem from="1711801106130" duration="3317000" />
+      <workItem from="1711801106130" duration="3498000" />
     </task>
     <task id="LOCAL-00001" summary="eee">
       <option name="closed" value="true" />
@@ -137,7 +134,23 @@
       <option name="project" value="LOCAL" />
       <updated>1711797727098</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="eee">
+      <option name="closed" value="true" />
+      <created>1711805076335</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1711805076335</updated>
+    </task>
+    <task id="LOCAL-00007" summary="eee">
+      <option name="closed" value="true" />
+      <created>1711805096872</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1711805096872</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,7 +161,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="eee" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/WeatherApp$gui_weather.coverage" NAME="gui_weather Coverage Results" MODIFIED="1711804921508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WeatherApp$gui_weather.coverage" NAME="gui_weather Coverage Results" MODIFIED="1711805046813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WeatherApp$main.coverage" NAME="main Coverage Results" MODIFIED="1711804913134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
