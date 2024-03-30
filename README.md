@@ -12,3 +12,7 @@ for example warsaw:
 pyongyang:
 
 ![image](https://github.com/CornyGrzesiek/WeatherApp/assets/128638079/fade6ba2-a953-430e-93c6-5403168f0963)
+
+when city is not found:
+
+![image](https://github.com/CornyGrzesiek/WeatherApp/assets/128638079/74cfc27d-3a43-47d1-9594-9a68fe491aa8)
