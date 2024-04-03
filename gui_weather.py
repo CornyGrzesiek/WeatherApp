@@ -47,6 +47,12 @@ def display_input(event=None):
         print("An error occurred:", e)
 
 
+def focus_in_entry(event):
+    if entry.get() == "Enter your city":
+        entry.delete(0, END)
+        entry.config(fg="black")
+
+
 root = Tk()
 root.geometry("500x550")
 root.resizable(False, False)
@@ -56,8 +62,10 @@ form = Frame(root, bg="lightblue", width=500, height=500, padx=15, pady=15)
 label = Label(form, text="Enter city to see the weather!", bg="lightblue", fg="black", font="Helvetica 12 bold")
 label.pack()
 
-entry = Entry(form, font="Helvetica 12")
+entry = Entry(form, font="Helvetica 12", fg="gray")
 entry.bind("<Return>", display_input)
+entry.bind("<FocusIn>", focus_in_entry)
+entry.insert(0, "Enter your city")
 entry.pack(padx=15, pady=15)
 
 button = Button(form, text="Submit City", command=display_input)
